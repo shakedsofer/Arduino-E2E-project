@@ -1,0 +1,58 @@
+﻿body {
+    background-color: black;
+    height:900px;
+}
+.container {
+    display: flex;
+    height: 500px;
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    border: 5px solid darkseagreen;
+    padding: 10px;
+    display: block;
+    flex: auto;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+.text 
+{
+    height: 15%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    position: relative;
+    position: center;
+    padding: 0px 5px 0px 5px;
+    color:darkseagreen;
+    left:35%;
+        
+}
+#Welcome{
+    font-size:60px;
+}
+.name {
+    position: relative;
+    position: center;
+    margin: auto;
+    height: 5%;
+    width: 10%;
+    left: 22%;
+    top: 250px;
+    color: darkseagreen;
+    direction: rtl;
+    font-size: 25px;
+}
+.button {
+    color: darkseagreen;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 4px 2px;
+    left: 42.5%;
+    top: 350px;
+    position: absolute;
+    display: flex;
+}
