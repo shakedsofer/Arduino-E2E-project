@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    background-color: black;
+    height: 700px;
+}
+
+#container {
+    border: 10px solid darkseagreen;
+    max-width: 50%;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#part1 {
+    color: darkseagreen;
+    position: absolute;
+    bottom: 70%;
+    font-size: 80px;
+    text-decoration: wavy;
+}
+
+#part2 {
+    color: darkseagreen;
+    position: absolute;
+    bottom: 50%;
+    font-size: 25px;
+}
+
+#part3 {
+    color: darkseagreen;
+    position: absolute;
+    bottom: 35%;
+    font-size: 60px;
+}
+
+a:link {
+    color: darkseagreen;
+}
+
+a:visited {
+    color: darkseagreen;
+}
+
+a:hover {
+    color: lightgreen;
+}
+body {
+    background: #202020;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+
+    #buttons li {
+        display: inline;
+        padding-left: 10px;
+    }
