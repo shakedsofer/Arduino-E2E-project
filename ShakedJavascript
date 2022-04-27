@@ -1,0 +1,15 @@
+
+function PressKey() {
+    //object.onkeypress = function(){PressKey};
+    alert("You pressed a key inside the input field");
+
+    document.onkeyup = function(event) {
+        var keycode = event.keyCode;
+    
+        if (keycode === a) {
+            alert("HEY");
+
+    
+}
+    }
+}
