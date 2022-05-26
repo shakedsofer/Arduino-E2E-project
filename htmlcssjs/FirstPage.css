@@ -1,0 +1,52 @@
+body {
+    background-color:black;
+    height:700px;
+    
+}
+#stopwatch{
+    display: grid;
+    color:darkseagreen;
+    
+}
+#container {
+    border:2px solid darkseagreen;
+    max-width: 960px;
+    display: grid;
+    gap: 1px;
+    margin: auto;
+    padding: 50px;
+    position: relative;
+    top: 10%;
+
+}
+#part1{
+   text-align: center;
+   font-size: 25px;
+   color: darkseagreen;
+   text-decoration: wavy;
+}
+#part2{
+    text-align: center;
+   font-size: 25px;
+   color: darkseagreen;
+   padding-top: 10%;
+   font-size: 25px;
+}
+#part3{
+    text-align: center;
+    font-size: 25px;
+    color: darkseagreen;
+    padding-top: 10%;
+    font-size: 60px;
+
+
+}
+a:link {
+    color: darkseagreen;
+}
+a:visited {
+    color: darkseagreen;
+}
+a:hover {
+    color: lightgreen;
+}

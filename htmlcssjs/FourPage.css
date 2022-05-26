@@ -1,0 +1,32 @@
+body {
+    background-color:black;
+    height:700px;
+    
+}
+#container {
+    border:2px solid darkseagreen;
+    max-width: 960px;
+    height: 100%;
+    display: grid;
+    gap: 1px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+
+}
+#part1{
+   text-align: center;
+   font-size: 25px;
+   color: darkseagreen;
+   font-size: 80px;
+   text-decoration: wavy;
+}
+#part2{
+    text-align: center;
+   font-size: 25px;
+   color: darkseagreen;
+   padding-top: 10%;
+   font-size: 45px;
+}
