@@ -1,19 +1,19 @@
 ﻿
 
- let randomNumber = Math.floor(Math.random() * 2);
+let randomNumber = Math.floor(Math.random()  * 5);
 
-alert(randomNumber);
+
 qustion();
 // this code did random  and take one qustion and show in alert
 
 function qustion() {
-    console.log("ddd");
+    
     switch (randomNumber) {
 
         case 1:
             document.getElementById("qustionOne").innerHTML = "איזה תוספת שמים על הפיצה ? ";
             break;
-/*
+
         case 2:
             document.getElementById("qustionTwo").innerText = "איך הצבים הפכו לנינג'ות? ";
             break;
@@ -29,7 +29,7 @@ function qustion() {
         case 5:
             document.getElementById("qustionfive").innerHTML = "איזה כלי נשק משתמש מיכאלנג׳לו?";
             break;
-
+/*
         case 6:
             alert("איך קוראים לבחורה בסדרה ?");
             break;
@@ -114,7 +114,7 @@ function qustion() {
             alert("מה תמיד הם עושים בסוף הפרק?");
             break;
 
-        case 27:
+      //  case 27:
             alert("ממהי קרבת המשפחה של גרי וקובי ?");
             break;
 
@@ -208,7 +208,7 @@ function qustion() {
 
         case 50:
             alert("מי היו בנות טריקס?");
-        */    break;
+*/            break;
         default:
 
     }
